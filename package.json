@@ -1,0 +1,23 @@
+{
+	"bin": {
+		"uplink": "./build/index.js"
+	},
+	"devDependencies": {
+		"@types/node": "^22.5.0"
+	},
+	"name": "linksprovider",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc --watch"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"commander": "^12.1.0"
+	}
+}
